@@ -1,0 +1,25 @@
+const destination = encodeURIComponent('Wayanad, Kerala, India');
+export const location = {
+  title: 'Location & FAQ | Aranya Homestay, Wayanad',
+  description: 'Find Aranya in the hills of Wayanad. Open maps and directions, and read arrival, parking, facilities and house-rule information.',
+  eyebrow: 'Location & FAQ', heading: 'Find your way to Aranya.',
+  introduction: 'In the hills of Wayanad, Kerala. Keep the address handy and contact the host for the final approach.',
+  addressHeading: 'The address', mapLabel: 'Open map', directionsLabel: 'Get directions',
+  mapUrl: `https://www.google.com/maps/search/?api=1&query=${destination}`,
+  directionsUrl: `https://www.google.com/maps/dir/?api=1&destination=${destination}`,
+  arrivalHeading: 'Before you set out',
+  arrival: 'Please call us for directions from the nearest town. We are happy to guide you in.',
+  phone: '+910000000000', phoneLabel: 'Call the host: +91 00000 00000 (sample number)',
+  routeNote: 'The map links search for Aranya by name and address. Call us if the road ever feels unsure.',
+  faqHeading: 'A few practical questions.',
+  faqs: [
+    { question: 'Is parking available?', answer: 'Yes. Let us know about your vehicle and we will help you find a place for it.' },
+    { question: 'When can we check in and out?', answer: 'Check-in is from 1 to 6 PM, and check-out is between 10:30 AM and noon. Tell us when you expect to arrive.' },
+    { question: 'Is there Wi-Fi and a pool?', answer: 'Yes to both. Wi-Fi is available, and the pool is open from 7 AM to 8 PM.' },
+    { question: 'What food is served?', answer: 'Fixed-menu vegetarian Kerala meals, cooked at home. Outside non-vegetarian food is not permitted. Tell us about any dietary needs.' },
+    { question: 'Is the property suitable for wheelchair users?', answer: 'The house is not wheelchair-friendly. Call us and we will talk through what would work for you.' },
+    { question: 'Can we bring pets?', answer: 'Pets are not permitted. Our resident Labrador will say hello once you are comfortable.' },
+    { question: 'Can children stay?', answer: 'Children are welcome. Additional children’s beds can be arranged when required.' },
+    { question: 'What are the cancellation terms?', answer: 'Cancellation terms are shown on the booking site when you book. Call us if you have questions.' },
+  ],
+};

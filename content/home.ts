@@ -1,0 +1,80 @@
+export const home = {
+  title: 'Aranya | A home in the hills of Wayanad',
+  description: 'Meet Aranya, a family homestay in Wayanad. Discover mountain views, private balconies and traditional vegetarian Kerala meals.',
+  location: 'Wayanad · Kerala · India',
+  heading: 'A little closer',
+  headingAccent: 'to the quiet.',
+  welcome: 'A home in the hills. A slower kind of stay.',
+  introduction: 'Aranya beckons you to the green hills of Wayanad. Spend time with family after a homely meal, settle into your own balcony, and leave a little room in the day for doing nothing.',
+  details: 'Four bedrooms with attached bathrooms and private balconies. Compare king and twin options on our Stay page. At the table, traditional vegetarian Kerala meals bring the home together.',
+  tagline: 'WITH US, YOU BELONG',
+  heroCaption: 'A family homestay, with Wayanad at your window.',
+  heroFootnote: 'A home. A view. Time to simply be.',
+  explore: 'Explore the homestay',
+  discover: 'Discover Aranya',
+  stepInside: 'Step inside',
+  welcomeLabel: 'Welcome to Aranya',
+  directions: 'Find your way here',
+  photoCaption: 'A place to pause, in the hills of Wayanad.',
+  locationLabel: 'The way to Aranya',
+  locationHeading: 'See you in Wayanad.',
+  address: ['Aranya Homestay', 'Wayanad, Kerala', 'India'],
+  shortAddress: 'Wayanad, Kerala',
+  mapLabel: 'Open map',
+  officialLabel: 'About this concept site',
+  conceptNote: 'Aranya is a fictional homestay. This is a concept website: the people, reviews and contact details are made up, and nothing here can be booked.',
+  bookingLine: 'Final booking happens on the booking site.',
+  heroAlt: 'Tea-covered Wayanad hills disappearing into mist',
+  houseAlt: 'Aranya’s two-storey house with a red-tiled roof among coconut palms',
+  official: 'https://github.com/aju773/aranya-resort-website',
+};
+export const navigation = [
+  { href: '/', label: 'Home' },
+  { href: '/#introduction', label: 'The homestay' },
+  { href: '/stay', label: 'Stay' },
+  { href: '/experiences', label: 'Experiences' },
+  { href: '/gallery', label: 'Gallery' },
+  { href: '/#reviews', label: 'Guest reviews' },
+  { href: '/location', label: 'Location/FAQ' },
+  { href: '/plan', label: 'Plan your stay' },
+];
+
+export const homeDiscovery = {
+  roomsLabel: 'Your own corner', roomsHeading: 'Wake up in the hills.',
+  roomsIntro: 'Four bedrooms, each with an attached bathroom and private balcony. Compare the listed king and twin options before choosing your preference.',
+  roomsNote: 'Wake to hill air and the sound of the morning outside your door.',
+  roomAction: 'Compare all rooms', roomDetailAction: 'View room details',
+  experiencesLabel: 'Days at Aranya', experiencesHeading: 'A meal. A view. An unhurried day.',
+  experiencesIntro: 'Traditional vegetarian Kerala meals, cooked at home and shared at the table, then a quiet hour by the pool with the hills in view.',
+  experiencesAction: 'Explore experiences',
+  storyLabel: 'The home behind the stay', storyHeading: 'A family house, opened to guests.',
+  story: 'Raghavan and Latha turned the house their son built into a homestay in 2016. Family photographs and little personal touches are still part of the home, and every guest is welcomed like family.',
+  reviewsLabel: 'Guest voices', reviewsHeading: 'Remembered by the people who stayed.',
+  reviewsNote: 'Kind words from guests who have shared our table.',
+  galleryLabel: 'Around the house', galleryHeading: 'Look a little closer.', galleryAction: 'Explore the full gallery',
+  practical: 'Find arrival information, facilities and answers to the questions guests ask us most.',
+  practicalAction: 'Directions and FAQs',
+  closingLabel: 'A little time away', closingHeading: 'Make room for Wayanad.',
+  closing: 'Gather your dates, guest count and room preference, then carry them to the booking site. Final booking happens on the booking site.',
+  closingAction: 'Plan your stay',
+};
+export const rating = {
+  score: '5.0', label: 'Excellent', count: 30, source: 'guest',
+  categories: [
+    { name: 'Food', score: '4.9' },
+    { name: 'Cleanliness', score: '4.9' },
+    { name: 'Value for money', score: '4.8' },
+  ],
+};
+export const reviewsLink = {
+  label: 'Read all reviews on the booking site',
+  href: 'https://example.com/aranya-booking',
+};
+// Sample quotes for the concept site. The guests are fictional.
+export const homeReviews = [
+  { author: 'Anjali R', trip: 'Friends', quote: 'A warm welcome and a quiet, green setting.' },
+  { author: 'Kiran M', trip: 'Family', quote: 'Homely meals shared at the table.' },
+  { author: 'Thomas V', trip: '', quote: 'Kind hosts and a calm view from the balcony.' },
+  { author: 'Devika', trip: 'Couple', quote: 'A restful stay in the hills of Wayanad.' },
+  { author: 'Arun P.', trip: '', quote: 'Clean rooms, good food and a lovely pool.' },
+];
