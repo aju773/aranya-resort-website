@@ -1,23 +1,4 @@
-# Project instructions
-
 When reporting information to the user, be extremely concise; sacrifice grammar for concision.
-
-## Agent skills
-
-### Issue tracker
-
-Local Markdown specs and tickets under `.scratch/`. No GitHub Issues.
-See `docs/agents/issue-tracker.md`.
-
-### Triage labels
-
-Use the five default triage labels.
-See `docs/agents/triage-labels.md`.
-
-### Domain docs
-
-Single-context layout: `CONTEXT.md` and `docs/adr/`.
-See `docs/agents/domain.md`.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
